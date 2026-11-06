@@ -1,0 +1,16 @@
+name: WildFFA
+version: '${project.version}'
+main: kr.wildffa.WildFFA
+api-version: '1.21'
+description: 야생 1ㄷ1ㄷ1ㄷ1 서바이벌 (자기장, 엔드 개방, 목숨 제한, 데스매치)
+
+commands:
+  game:
+    description: 야생 1ㄷ1ㄷ1ㄷ1 게임 관리
+    usage: "/게임 <시작|중지|상태>"
+    aliases: [게임]
+
+permissions:
+  wildffa.admin:
+    description: 게임 시작/중지 권한
+    default: op
